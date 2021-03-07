@@ -1,0 +1,11 @@
+{
+  "name": "57_demo-p12c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mian Muhammad Sharjeel Safdar <miansharjeelsafdar@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
