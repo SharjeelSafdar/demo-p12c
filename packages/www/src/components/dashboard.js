@@ -48,7 +48,7 @@ const ADD_TODO = gql`
 `;
 
 const UPDATE_TODO_DONE = gql`
-  mutation UpdateTodoDone($id: String!) {
+  mutation UpdateTodoDone($id: ID!) {
     updateTodoDone(id: $id) {
       text
       done
