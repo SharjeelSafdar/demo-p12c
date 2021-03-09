@@ -9,7 +9,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@apollo/client": "^3.3.11",
     "@theme-ui/presets": "^0.3.5",
+    "apollo-link-context": "^1.0.20",
     "gatsby": "^3.0.3",
     "gatsby-plugin-create-client-paths": "^3.0.0",
     "netlify-identity-widget": "^1.9.1",
